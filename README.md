@@ -1,2 +1,2 @@
 # l285chen
-homepage for letian chen
+Homepage for Letian Chen
