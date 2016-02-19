@@ -48,6 +48,9 @@
     <div class = "jumbotron" id = "aspiring_intro">
       <h1>Welcome to the Official MoG Fansite</h1>
       <p id = "god_quote">Ambition is the path to success. Persistence is the vehicle you arrive in. </p>
+      <p> 
+      $$ \frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x). $$
+      </p>
     </div>
 
     <div id = "persistence_block">
@@ -62,20 +65,26 @@
       <footer>
         <p>&copy; momomog 2016</p>
       </footer>
-    </div> <!-- /container -->        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
-        <script src="js/jquery-2.2.0.min.js"></script>
+    </div> <!-- /container -->
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.2.0.min.js"><\/script>')</script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+        </script>
+        <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <!--<script>
+        <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
+            e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-74035425-1','auto');ga('send','pageview');
-        </script>-->
+        </script>
     </body>
 </html>
