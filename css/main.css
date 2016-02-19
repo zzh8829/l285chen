@@ -1,5 +1,44 @@
+#ambition_nav {
+	background-color: #cccccc;
+	padding-left: 80px;
+	border-bottom: 1px transparent;
+	border-radius: 1px;
+}
+#ambition_nav .navbar-brand {
+	font-size: 24px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+}
+#ambition_nav .navbar-nav>li>a {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+	font-size: 16px;
+}
 
+#aspiring_intro {
+	height: 200px;
+	background: #ffffff;
+	text-align: center;
+}
 
+#aspiritng_intro>h1 {
+	margin: 10px;
+}
+
+#god_quote {
+	color: red;
+}
+
+#persistence_block hr{
+	color: #555555;
+	margin: 20px 40px 20px 40px;
+}
+#persistence_block footer{
+	margin: 0 40px 0 40px;
+}
+
+#mog_main {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	margin: 0 60px 0 60px;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
