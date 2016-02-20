@@ -13,6 +13,9 @@
 	font-size: 16px;
 }
 
+#ambition_nav .icon-bar{
+	background-color: black;
+}
 #aspiring_intro {
 	height: 200px;
 	background: #ffffff;
