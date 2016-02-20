@@ -1,3 +1,21 @@
+body {
+	font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 18px;
+}
+
+hr {
+	color: #555555;
+	margin: 20px 40px 20px 40px;
+}
+
+footer {
+	margin: 0 40px 0 40px;
+}
+
+.center {
+	text-align: center;
+}
+
 #ambition_nav {
 	background-color: #cccccc;
 	padding-left: 80px;
@@ -16,31 +34,14 @@
 #ambition_nav .icon-bar{
 	background-color: black;
 }
-#aspiring_intro {
-	height: 200px;
-	background: #ffffff;
-	text-align: center;
+
+#persistence_block{
+	margin: 20px 0 0 0;
 }
 
-#aspiritng_intro>h1 {
-	margin: 10px;
-}
-
-#god_quote {
+.god_quote{
 	color: red;
-}
-
-#persistence_block hr{
-	color: #555555;
-	margin: 20px 40px 20px 40px;
-}
-#persistence_block footer{
-	margin: 0 40px 0 40px;
-}
-
-#mog_main, #mog_img{
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	margin: 0 60px 0 60px;
+	font-size: 30px;
 }
 /* ==========================================================================
    Author's custom styles

@@ -6,21 +6,21 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Letian Chen</title>
+        <title>膜G</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <style>
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/mog_cn.css">
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -34,23 +34,45 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">momomog</a>
+        <a class="navbar-brand" href="../index.html">momomog</a>
       </div>
       <div id = "navbar" class = "collapse navbar-collapse">
         <ul class = "nav navbar-nav">
-          <li><a href = "about/about.html">About</a></li>
-          <li><a href = "math/math.html">Math</a></li>
-          <li><a href = "misc/misc.html">Misc</a></li>
-          <li><a href = "mog/mog_jp.html">もG</a></li>
-          <li><a href = "mog/mog_cn.html">膜G</a></li>
+          <li><a href = "../about/about.html">About</a></li>
+          <li><a href = "../math/math.html">Math</a></li>
+          <li><a href = "../misc/misc.html">Misc</a></li>
+          <li><a href = "mog_jp.html">もG</a></li>
+          <li><a href = "mog_cn.html">膜G</a></li>
         </ul>
       </div>
     </nav>
-    <div class = "row" id = "persistence_block">
+
+    <div class = "jumbotron" id = "mog_title">
+      <h1>人不膜G，和咸鱼又有什么区别？</h1>
+      <!-- <p id = "god_quote">Ambition is the path to success. Persistence is the vehicle you arrive in. </p> -->
+    </div>
+    <hr>
+    <div id = "mog_intro">
       <!-- Example row of columns -->
-      <p class = "center">Hi. My name is Letian Chen. This website is under construction.</p>
-      <p class = "god_quote center"><b> Ambition is the path to success. Persistence is the vehicle you arrive in.</b></p>
-      <p class = "god_quote center">- Shiyang Han</p>
+      <div class="row" id = "mog_main">
+        <p class = "center" style = "font-size: 24px;">G神带我学数学，听枷仆</p>
+        <div id = "g_ref" class = "center">
+          <ul>
+            <li><a href = "http://weibo.com/happyglados" target="_blank">神的微博</a></li>
+            <li><a href = "http://tieba.baidu.com/home/main?un=glados_nice" target="_blank">神的贴吧</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class = "row" id = "mog_img">
+        <div class = "center" style="margin-bottom: 10px;">
+          <a href = "#" id = "reason_to_live"><img src="img/mog1.jpg"></a>
+          <span><img src="img/mog2.jpg" style = "display: none; "></span>
+        </div>
+        <div class = "center">
+          <button type = "button" class = "btn btn-primary" id = "mog_now">现在马上膜G</button>
+        </div>
+      </div>
+
       <hr>
 
       <footer>
@@ -58,7 +80,7 @@
       </footer>
     </div> <!-- /container -->
 
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.2.0.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-2.2.0.min.js"><\/script>')</script>
         <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
           tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
@@ -66,9 +88,9 @@
         </script>
         <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
         </script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
-
+        <script src="../js/vendor/bootstrap.min.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/mog_cn.js"></script>
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
